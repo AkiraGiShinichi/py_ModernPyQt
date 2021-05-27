@@ -5,10 +5,11 @@ requirements = [
     'PyQt5',
     'opencv-python',
     'opencv-contrib-python',
-    'pyrealsense2',
-    'pywin32',
-    'pep8',
-    'autopep8',
+    'pyrealsense2',  # i add by my demand
+    'pywin32',  # fix confliction btw PyQt5 & pyrealsense2
+    'pep8',  # auto format
+    'autopep8',  # auto format
+    'PyQtDataVisualization',  # chap 6
 ]
 
 setup(
