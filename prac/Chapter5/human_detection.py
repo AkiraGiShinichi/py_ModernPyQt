@@ -146,7 +146,7 @@ class DisplayVideo(QMainWindow):
         self.start_button.repaint()
 
         # Create an instance of the worker thread using a local video file
-        video_file = "Chapter5/video.mp4"  # ! please modify this
+        video_file = "prac/Chapter5/video.mp4"  # ! please modify this
         self.video_thread_worker = VideoWorkerThread(
             parent=self, video_file=video_file)
 
